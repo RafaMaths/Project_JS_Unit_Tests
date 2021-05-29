@@ -13,7 +13,7 @@
 */
 
 const average = (array) => {
-  // inicialmente vou criar um for para que qualquer string dentro do array retorne undefined
+  // inicialmente vou criar um for para que qualquer string dentro do array retorne undefined :-)
   let sum = 0;
   for (let index = 0; index < array.length; index += 1) {
     if (typeof array[index] === 'string') {
